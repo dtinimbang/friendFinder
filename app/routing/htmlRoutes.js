@@ -6,17 +6,17 @@
 
 var path = require('path');
 
-module.exports = function(app){
+module.exports = function (app) {
 
-    // brings us to survey page
-	app.get('/survey', function(req, res){
+	// brings us to survey page
+	app.get('/survey', function (req, res) {
 		res.sendFile(path.join(__dirname + '/../public/survey.html'));
 	});
 
 
 
 	// when nothing matches it will bring us back to home page
-	app.use(function(req, res){
+	app.use(function (req, res) {
 		res.sendFile(path.join(__dirname + '/../public/home.html'));
 	});
 

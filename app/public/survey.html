@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Tables Page</title>
 
- 
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery.js"></script>
 
 </head>
+
 <body>
 
   <div class="container">
 
     <div class="jumbotron">
-      <h1 class="text-center"><span class="glyphicon glyphicon-user"><span class="glyphicon glyphicon-user"></span> LETS FIND YOU A FRIEND</h1>
+      <h1 class="text-center">
+        <span class="glyphicon glyphicon-user">
+          <span class="glyphicon glyphicon-user"></span> LETS FIND YOU A FRIEND</h1>
       <hr>
       <h2 class="text-center">Answer a few basic questions</h2>
       <br>
@@ -24,181 +28,211 @@
 
     <div class="container">
 
-       <bold> <h2>Survey Questions</h2> </bold>
-        <hr>
-    
-        <h3><strong>About You</strong></h3>
-        <h4>Name (Required)</h4>
-        <input type="text" id="name" class="form-control" required>
-    
-        <h4>Link to Photo Image (Required)</h4>
-        <input type="text" id="photo" class="form-control" required>
-    
-        <hr>
-    
-        <h3><strong>Question 1</strong></h3>
-        <h4>You are very playful.</h4>
-        <select class="chosen-select" id="q1">
-          <option value=""></option>
-          <option value="1">1 (Strongly Disagree)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (Strongly Agree)</option>
-        </select>
-    
-        <h3><strong>Question 2</strong></h3>
-        <h4>You would rather go to a club than stay home.</h4>
-        <select class="chosen-select" id="q2">
-          <option value=""></option>
-          <option value="1">1 (Home-body)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (Party Animal!!!)</option>
-        </select>
-    
-    
-        <h3><strong>Question 3</strong></h3>
-        <h4>You give in to peer pressure.</h4>
-        <select class="chosen-select" id="q3">
-          <option value=""></option>
-          <option value="1">1 (Nope)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (I was peer pressured into filling this survey.)</option>
-        </select>
-    
-    
-        <h3><strong>Question 4</strong></h3>
-        <h4>You do drugs.</h4>
-        <select class="chosen-select" id="q4">
-          <option value=""></option>
-          <option value="1">1 (Never)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (Im stoned filling this out)</option>
-        </select>
-    
-    
-        <h3><strong>Question 5</strong></h3>
-        <h4>You are athletic.</h4>
-        <select class="chosen-select" id="q5">
-          <option value=""></option>
-          <option value="1">1 (more of a spectator)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (Ill play any sport)</option>
-        </select>
-    
-    
-        <h3><strong>Question 6</strong></h3>
-        <h4>You love to laugh</h4>
-        <select class="chosen-select" id="q6">
-          <option value=""></option>
-          <option value="1">1 (Not Funny)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (Tell me a joke)</option>
-        </select>
-    
-    
-        <h3><strong>Question 7</strong></h3>
-        <h4>Hugs?</h4>
-        <select class="chosen-select" id="q7">
-          <option value=""></option>
-          <option value="1">1 (Keep your distance)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (Come over here and wrap your arms around me)</option>
-        </select>
-    
-        <h3><strong>Question 8</strong></h3>
-        <h4>Able to work well with others.</h4>
-        <select class="chosen-select" id="q8">
-          <option value=""></option>
-          <option value="1">1 (My way or high way)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (Lets meet in the middle)</option>
-        </select>
-    
-        <h3><strong>Question 9</strong></h3>
-        <h4>you love animals</h4>
-        <select class="chosen-select" id="q9">
-          <option value=""></option>
-          <option value="1">1 (animals disgust me)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (I love Animals)</option>
-        </select>
-    
-        <h3><strong>Question 10</strong></h3>
-        <h4>Do You like kids.</h4>
-        <select class="chosen-select" id="q10">
-          <option value=""></option>
-          <option value="1">1 (No Kids for me)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (Love little rascals!)</option>
-        </select>
-    
-        <br> 
-        <br>
-    
+      <bold>
+        <h2>Survey Questions</h2>
+      </bold>
+      <hr>
+
+      <h3>
+        <strong>About You</strong>
+      </h3>
+      <h4>Name (Required)</h4>
+      <input type="text" id="name" class="form-control" required>
+
+      <h4>Link to Photo Image (Required)</h4>
+      <input type="text" id="photo" class="form-control" required>
+
+      <hr>
+
+      <h3>
+        <strong>Question 1</strong>
+      </h3>
+      <h4>You are very playful.</h4>
+      <select class="chosen-select" id="q1">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3>
+        <strong>Question 2</strong>
+      </h3>
+      <h4>You would rather go to a club than stay home.</h4>
+      <select class="chosen-select" id="q2">
+        <option value=""></option>
+        <option value="1">1 (Home-body)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Party Animal!!!)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 3</strong>
+      </h3>
+      <h4>You give in to peer pressure.</h4>
+      <select class="chosen-select" id="q3">
+        <option value=""></option>
+        <option value="1">1 (Nope)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (I was peer pressured into filling this survey.)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 4</strong>
+      </h3>
+      <h4>You do drugs.</h4>
+      <select class="chosen-select" id="q4">
+        <option value=""></option>
+        <option value="1">1 (Never)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Im stoned filling this out)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 5</strong>
+      </h3>
+      <h4>You are athletic.</h4>
+      <select class="chosen-select" id="q5">
+        <option value=""></option>
+        <option value="1">1 (more of a spectator)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Ill play any sport)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 6</strong>
+      </h3>
+      <h4>You love to laugh</h4>
+      <select class="chosen-select" id="q6">
+        <option value=""></option>
+        <option value="1">1 (Not Funny)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Tell me a joke)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 7</strong>
+      </h3>
+      <h4>Hugs?</h4>
+      <select class="chosen-select" id="q7">
+        <option value=""></option>
+        <option value="1">1 (Keep your distance)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Come over here and wrap your arms around me)</option>
+      </select>
+
+      <h3>
+        <strong>Question 8</strong>
+      </h3>
+      <h4>Able to work well with others.</h4>
+      <select class="chosen-select" id="q8">
+        <option value=""></option>
+        <option value="1">1 (My way or high way)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Lets meet in the middle)</option>
+      </select>
+
+      <h3>
+        <strong>Question 9</strong>
+      </h3>
+      <h4>you love animals</h4>
+      <select class="chosen-select" id="q9">
+        <option value=""></option>
+        <option value="1">1 (animals disgust me)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (I love Animals)</option>
+      </select>
+
+      <h3>
+        <strong>Question 10</strong>
+      </h3>
+      <h4>Do You like kids.</h4>
+      <select class="chosen-select" id="q10">
+        <option value=""></option>
+        <option value="1">1 (No Kids for me)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Love little rascals!)</option>
+      </select>
+
+      <br>
+      <br>
+
+    </div>
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+      <i class="fa fa-check-circle" aria-hidden="true"></i>
+      Submit</button>
+</body>
+
+<script>
+  $(document).ready(function (event) {
+    $("#submit").on("click", function (event) {
+      event.preventDefault();
+      //pseudo.....
+      //collect all info
+      //post it to api friends list
+      //api will compare to other data and send you back a friend
+      var submitObject = {}
+      submitObject.scores = [
+        $("#q1").val().trim(),
+        $("#q2").val().trim(),
+        $("#q3").val().trim(),
+        $("#q4").val().trim(),
+        $("#q5").val().trim(),
+        $("#q6").val().trim(),
+        $("#q7").val().trim(),
+        $("#q8").val().trim(),
+        $("#q9").val().trim(),
+        $("#q10").val().trim(),
+      ]
+      $.post({
+        url: "/app/data/friends",
+        data: submitObject,
+        traditional: true,
+      })
+
+    })
+  })
+</script>
+
+<footer class="footer">
+  <div class="container">
+    <p>
+      <a href="/app/data/friends">API friends list</a> |
+      <a href="/api/waitlist">API Wait List</a> |
+      <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a>
+    </p>
   </div>
-        <!-- Submit Button -->
-        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
-          Submit</button>
-    </body>
+</footer>
 
-    <script>
-      $(document).ready(function(event){
-       event.preventDefault();
-       $("#submit").on("click", function(){
-//pseudo.....
-//collect all info
-//post it to api friends list
-//api will compare to other data and send you back a friend
-var submitObject = {}
-submitObject.scores=[
-  $("#q1").val().trim(),
-  $("#q2").val().trim(),
-  $("#q3").val().trim(),
-  $("#q4").val().trim(),
-  $("#q5").val().trim(),
-  $("#q6").val().trim(),
-  $("#q7").val().trim(),
-  $("#q8").val().trim(),
-  $("#q9").val().trim(),
-  $("#q10").val().trim(),
-  ]
-$.post({
-  url: "/api/data/friends",
-  data: submitObject,
-  traditional: true,
-})
-
-       })
-      }) 
-    </script>
-
-    <footer class="footer">
-      <div class="container">
-        <p><a href="/app/data/friends">API friends list</a> | <a href="/api/waitlist">API Wait List</a> | <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a></p>
-      </div>
-    </footer>
-
-  </div>
+</div>
 
 
 </body>
+
 </html>
